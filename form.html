@@ -10,27 +10,27 @@
 <form method="post" action="/" class="forms">
     <label>
         <br />
-        <input placeholder="ФИО" />
+        <input placeholder="ФИО" required/>
     </label><br />
     <label>
-        <input type="tel" placeholder="Телефон" />
+        <input type="tel" placeholder="Телефон" required/>
     </label><br />
     <label>
-        <input type="email" placeholder="Email" />
+        <input type="email" placeholder="Email" required/>
     </label><br />
     <label>
         Дата рождения <br/>
-        <input type="date" />
+        <input type="date" required/>
     </label><br />
     <label>
-    <input type="radio" value="male" />
+    <input type="radio" value="male" required/>
     мужской</label>
     <label>
-    <input type="radio" value="female" />
+    <input type="radio" value="female" required/>
     женский</label> <br />
     <label>
         <br />
-        <select>
+        <select required>
             <option disabled>Любимый язык программирования</option>
             <option value="Pascal">Pascal</option>
             <option value="C" >C</option>
@@ -46,11 +46,11 @@
         </select>
     </label><br />
     <label>
-        <textarea placeholder="Bio"></textarea>
+        <textarea placeholder="Bio" required></textarea>
     </label><br />
     <label>
         С контрактом ознокомился
-        <input type="checkbox">
+        <input type="checkbox" required>
     </label><br />
     <input type="submit" value="Отправить" />
 </form>
